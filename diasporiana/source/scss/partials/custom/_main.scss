@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center -40px;
+}
+
+section {
+    display: block;
+}
+
+.wrap {
+    & + .wrap,
+    & > .wrap {
+        margin-top: 0 !important;
+    }
+}
+
+nav.navbar.navbar-main {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.collapse.show {
+    .navbar-nav {
+        display: list-item;
+        .nav-item {
+            height: 48px;
+            min-height: 48px;
+        }
+    }
+}

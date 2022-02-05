@@ -1,0 +1,16 @@
+extends templates/main.pug
+
+block variables
+    - var title = 'Diasporiana — Інтелектуальна спадщина Української еміграції';
+    - var description = 'Adaptive HTML template for Diasporiana website';
+
+block content
+
+    // Top Menu 
+    include partials/top_menu.pug
+
+    //- Search Bar 
+    //- include partials/pg-catalog/search.pug
+
+    // Books Catalog 
+    include partials/pg-catalog/catalog.pug

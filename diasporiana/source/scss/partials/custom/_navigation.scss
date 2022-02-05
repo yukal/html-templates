@@ -1,0 +1,18 @@
+.navbar {
+    &-brand {
+        strong {
+            display: block;
+            font-family: $font-family-base;
+
+            span {
+                display: block;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 1.3;
+                word-spacing: 1px;
+                letter-spacing: .3px;
+                color: #6a6544;
+            }
+        }
+    }
+}

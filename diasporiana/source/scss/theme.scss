@@ -1,0 +1,39 @@
+/* BOOTSTRAP */
+@import "partials/bootstrap/bootstrap";
+
+
+/* CUSTOM STYLE */
+
+
+/* MAIN */
+@import "partials/custom/main";
+
+/* NAVIGATION */
+@import "partials/custom/navigation";
+
+/* PRESENTATION */
+@import "partials/custom/presentation";
+
+/* SEARCH */
+@import "partials/custom/search";
+
+/* GENRES */
+@import "partials/custom/genres";
+
+/* CATALOG */
+@import "partials/custom/catalog";
+
+
+/* DONATE */
+@import "partials/custom/donate";
+
+/* FOOTER */
+@import "partials/custom/footer";
+
+/* MEDIA QUERIES */
+@import "partials/custom/media-queries/misc";
+@import "partials/custom/media-queries/max-width-767";
+@import "partials/custom/media-queries/min-width-576";
+@import "partials/custom/media-queries/min-width-768";
+@import "partials/custom/media-queries/min-width-992";
+@import "partials/custom/media-queries/min-width-1200";

@@ -1,0 +1,13 @@
+.container.presentation {
+    text-align: center;
+    color: #2b2000;
+
+    .lead {
+        font-family: $font-family-serif;
+        font-weight: bold;
+
+        & + strong {
+            font-weight: normal;
+        }
+    }
+}

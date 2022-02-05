@@ -1,0 +1,59 @@
+nav.navbar.genres {
+    padding: 0;
+    flex-basis: 100%;
+
+    a {
+        display: inline-block;
+        padding: 6px 0;
+        font-family: $font-family-serif;
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #004086;
+        border-bottom: 1px solid #bce3ff;
+
+        -webkit-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        transition: all .15s ease-in-out;
+
+        &:hover {
+            border-color: #927725;
+            color: #cca430;
+        }
+    }
+
+    .navbar-toggler {
+        border-radius: 0;
+        color: #fff;
+        background-color: #927725;
+
+        padding: .5rem 2rem;
+        font-size: 1.25rem;
+        line-height: 1.2;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: #b9972e;
+            outline: 0;
+        }
+    }
+
+    .card-deck {
+        &.wide {
+            margin: 0;
+            flex-basis: 100%;
+        }
+
+        .card {
+            position: relative;
+            margin-bottom: 0;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        &.collapse.show {
+            display: flex;
+        }
+    }
+}
